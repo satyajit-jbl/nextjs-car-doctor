@@ -43,7 +43,7 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <Link href={"/"} className=" text-xl">
-                    <Image src={"/assets/logo.svg"} width={107} height={87}/>
+                    <Image src={"/assets/logo.svg"} alt='image' width={107} height={87}/>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -52,7 +52,7 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+                <a className="btn btn-outline">Appointment</a>
             </div>
         </div>
     )
